@@ -3,7 +3,7 @@
 
 # Poku Theme ✨
 
-A cute **gothic pastel** theme for [Visual Studio Code](https://github.com/microsoft/vscode).
+A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity.
 
 💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.
 
@@ -13,7 +13,19 @@ A cute **gothic pastel** theme for [Visual Studio Code](https://github.com/micro
 
 ## Compatibilty
 
-> Although it probably works with most languages, these are the languages and frameworks that are manually checked:
+### Editors
+
+This is a monorepo to organize all the themes.
+
+| Name                   | Package                                    |
+| ---------------------- | ------------------------------------------ |
+| **Visual Studio Code** | [./packages/**vscode**](./packages/vscode) |
+
+- If your favorite editor isn't here, how about contributing? 🙌
+
+---
+
+### Languages
 
 - ✅ **JavaScript**, **TypeScript**
   - ✅ **React.js**, **Stelve**, **Vue**
@@ -21,9 +33,13 @@ A cute **gothic pastel** theme for [Visual Studio Code](https://github.com/micro
 - ✅ **SQL**, **Bash**
 - ✅ **PHP**, **C++**, **Go**, **Python**, **Ruby**, **Rust**
 
-# Main Color Palette 🎨🐷
+> Although it probably works with most languages, these are the languages and frameworks that are manually checked.
 
-This document describes the theme’s core color palette. It serves as a guide for developers who want to adapt the **Poku Theme** to other editors, variations or tools beyond **VSCode**.
+---
+
+# Main Color Palette 👨🏻‍🎨
+
+This section describes the theme’s core color palette. It serves as a guide for developers who want to adapt the **Poku Theme** to other editors, variations or tools beyond **VSCode**.
 
 ---
 
@@ -31,7 +47,7 @@ This document describes the theme’s core color palette. It serves as a guide f
 
 ### 1. Editor Backgrounds and Main Surfaces
 
-| Purpose                       | HEX       | 👨🏻‍🎨                                                       | Notes                                                  |
+| Purpose                       | HEX       | 🎨                                                       | Notes                                                  |
 | ----------------------------- | --------- | -------------------------------------------------------- | ------------------------------------------------------ |
 | **Editor / Code**             | `#2c313b` | <img src="./packages/vscode/assets/colors/2c313b.png" /> | Primary background where the code is displayed.        |
 | **Title Bar / Inactive Tabs** | `#22242c` | <img src="./packages/vscode/assets/colors/22242c.png" /> | Background for the window title bar and inactive tabs. |
@@ -43,7 +59,7 @@ This document describes the theme’s core color palette. It serves as a guide f
 
 ### 2. Text and General Elements
 
-| Purpose                          | HEX         | 👨🏻‍🎨                                                         | Notes                                                                      |
+| Purpose                          | HEX         | 🎨                                                         | Notes                                                                      |
 | -------------------------------- | ----------- | ---------------------------------------------------------- | -------------------------------------------------------------------------- |
 | **Primary Text**                 | `#babcc4`   | <img src="./packages/vscode/assets/colors/babcc4.png" />   | Main text color inside the editor.                                         |
 | **Secondary Text**               | `#96a3b6`   | <img src="./packages/vscode/assets/colors/96a3b6.png" />   | Used in the sidebar items, breadcrumb, etc.                                |
@@ -64,7 +80,7 @@ These colors appear throughout **syntax highlighting**, driving legibility and c
 
 ### 3. Accents / Specific Highlights
 
-| Purpose                      | HEX         | 👨🏻‍🎨                                                         | Notes                                                       |
+| Purpose                      | HEX         | 🎨                                                         | Notes                                                       |
 | ---------------------------- | ----------- | ---------------------------------------------------------- | ----------------------------------------------------------- |
 | **Pink Accent / Decoration** | `#fd9fff`   | <img src="./packages/vscode/assets/colors/fd9fff.png" />   | Used in special characters and other prominent decorations. |
 | **Errors / Invalid**         | `#ff6e97`   | <img src="./packages/vscode/assets/colors/ff6e97.png" />   | Used for `invalid.illegal`, lint errors, etc.               |
@@ -77,7 +93,7 @@ These vibrant shades intensify the visual experience, highlighting errors, selec
 
 ### 4. Edtior Miscellaneous Colors
 
-| Purpose                     | HEX         | 👨🏻‍🎨                                                         |
+| Purpose                     | HEX         | 🎨                                                         |
 | --------------------------- | ----------- | ---------------------------------------------------------- |
 | **Line Numbers (Inactive)** | `#51647d`   | <img src="./packages/vscode/assets/colors/51647d.png" />   |
 | **Line Numbers (Active)**   | `#948ef9`   | <img src="./packages/vscode/assets/colors/948ef9.png" />   |

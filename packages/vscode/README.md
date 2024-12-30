@@ -3,7 +3,7 @@
 
 # Poku Theme ✨
 
-A cute **gothic pastel** theme for [Visual Studio Code](https://github.com/microsoft/vscode).
+A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity for [Visual Studio Code](https://github.com/microsoft/vscode).
 
 💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.
 
@@ -11,21 +11,24 @@ A cute **gothic pastel** theme for [Visual Studio Code](https://github.com/micro
 
 ---
 
-## Compatibilty
-
-> Although it probably works with most languages, these are the languages and frameworks that are manually checked:
+## Languages Tried
 
 - ✅ **JavaScript**, **TypeScript**
   - ✅ **React.js**, **Stelve**, **Vue**
 - ✅ **HTML**, **CSS**, **SCSS**, **JSON**, **YAML**, **Markdown**
 - ✅ **SQL**, **Bash**
-- ✅ **PHP**, **C++**, **Go**, **Python**, **Ruby**, **Rust**
+- ✅ **PHP**, **C++**, **Go**, **Python**, **Ruby**
+
+Soon:
+ - **Rust**, **Dart**, **Flutter**, and **Astro**.
+
+> Although it probably works with most languages, these are the languages and frameworks that are manually checked.
 
 ---
 
 # Main Color Palette 🎨🐷
 
-This document describes the theme’s core color palette. It serves as a guide for developers who want to adapt the **Poku Theme** to other editors, variations or tools beyond **VSCode**.
+This section describes the theme’s core color palette. It serves as a guide for developers who want to adapt the **Poku Theme** to other editors, variations or tools beyond **VSCode**.
 
 ---
 
@@ -90,7 +93,7 @@ These vibrant shades intensify the visual experience, highlighting errors, selec
 
 ---
 
-### 5. Theme Essence
+## Theme Essence
 
 The **Poku** Theme is defined by:
 
@@ -101,4 +104,4 @@ The **Poku** Theme is defined by:
 - **Selections** and **errors** highlighted in vibrant purple/pink
 - **Occasional accents** in magenta and bright blues
 
-This ensures good readability across HTML, CSS, JS/TS, Vue, Svelte, Markdown, etc. The theme’s identity remains consistent in other editors as long as you maintain the core contrast and color logic.
+Feel free to contribute improvements, new variations, languages and even editors.
