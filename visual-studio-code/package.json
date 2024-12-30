@@ -1,0 +1,26 @@
+{
+  "name": "poku-theme",
+  "displayName": "Poku Theme",
+  "description": "The official Poku Theme: a cute gothic pastel theme for Visual Studio Code 🐷",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "vsce package",
+    "publish": "vsce publish"
+  },
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Poku Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Poku Theme-color-theme.json"
+      }
+    ]
+  }
+}
