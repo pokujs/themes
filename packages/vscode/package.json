@@ -4,6 +4,20 @@
   "description": "The official Poku Theme: a cute gothic pastel theme for Visual Studio Code 🐷",
   "version": "0.0.1",
   "type": "module",
+  "license": "MIT",
+  "homepage": "https://poku.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokujs/themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pokujs/themes/issues"
+  },
+  "author": "https://github.com/wellwelwel",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/wellwelwel"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },

@@ -3,6 +3,19 @@
   "name": "themes",
   "type": "module",
   "license": "MIT",
+  "homepage": "https://poku.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokujs/themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pokujs/themes/issues"
+  },
+  "author": "https://github.com/wellwelwel",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/wellwelwel"
+  },
   "scripts": {
     "lint": "prettier --check .",
     "lint:fix": "prettier --write ."
