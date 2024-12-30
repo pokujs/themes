@@ -39,7 +39,7 @@
     "editor.findMatchBackground": "#f200ffa7",
     "editor.findMatchForeground": "#eae1f1",
     "statusBar.background": "#443ca7",
-    "statusBar.debuggingBackground": "#00fbffdc",
+    "statusBar.debuggingBackground": "#8e3fbc",
     "editorLink.activeForeground": "#688eff",
     "breadcrumb.foreground": "#96a3b6",
     "gitDecoration.modifiedResourceForeground": "#dcba99df",
