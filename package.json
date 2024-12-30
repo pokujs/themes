@@ -2,6 +2,7 @@
   "private": true,
   "name": "themes",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "lint": "prettier --check .",
     "lint:fix": "prettier --write ."
