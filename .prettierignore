@@ -1,1 +1,3 @@
 /CHANGELOG.md
+packages/**/dist/
+packages/**/CHANGELOG.md

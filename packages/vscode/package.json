@@ -2,7 +2,7 @@
   "name": "poku-theme",
   "displayName": "Poku Theme",
   "description": "The official Poku Theme: a cute gothic pastel theme for Visual Studio Code 🐷",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "license": "MIT",
   "homepage": "https://poku.io",
@@ -19,10 +19,18 @@
     "type": "github",
     "url": "https://github.com/sponsors/wellwelwel"
   },
+  "sponsor": {
+    "url": "https://github.com/sponsors/wellwelwel"
+  },
+  "pricing": "Free",
   "engines": {
     "vscode": "^1.96.0"
   },
   "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#684cbe",
+    "theme": "dark"
+  },
   "categories": [
     "Themes"
   ],
@@ -31,7 +39,7 @@
       {
         "label": "Poku Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
+        "path": "./dist/dark.json"
       }
     ]
   },
@@ -47,5 +55,18 @@
     "@vscode/vsce": "^3.2.1",
     "jsonc.min": "^1.1.0",
     "tsx": "^4.19.2"
-  }
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "poku",
+    "brasil",
+    "brazil",
+    "dracula",
+    "gothic",
+    "pastel",
+    "soft",
+    "cute",
+    "gothic pastel"
+  ]
 }

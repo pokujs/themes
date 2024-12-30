@@ -10,7 +10,7 @@ type Paths = {
 const paths: Paths[] = [
   {
     src: './src/themes/dark.jsonc',
-    dist: './themes/dark.json',
+    dist: './dist/dark.json',
   },
 ];
 
