@@ -11,7 +11,7 @@ A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwel
 
 ---
 
-## Languages Tried
+## 🔬 Languages Tried
 
 - ✅ **JavaScript**, **TypeScript**
   - ✅ **React.js**, **Stelve**, **Vue**
@@ -19,15 +19,19 @@ A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwel
 - ✅ **SQL**, **Bash**
 - ✅ **PHP**, **C++**, **Go**, **Python**, **Ruby**
 
-Soon:
-
-- **Rust**, **Dart**, **Flutter**, and **Astro**.
-
 > Although it probably works with most languages, these are the languages and frameworks that are manually checked.
+
+### Soon:
+
+- ⚠️ **Rust**, **Dart**, **Flutter**, and **Astro**.
+
+### I'd love your help with:
+
+- ❗️ **Java**, **C#**, **C**, and the one you like.
 
 ---
 
-# Main Color Palette 🎨🐷
+# 🎨 Main Color Palette
 
 This section describes the theme’s core color palette. It serves as a guide for developers who want to adapt the **Poku Theme** to other editors, variations or tools beyond **VSCode**.
 
@@ -96,13 +100,13 @@ These vibrant shades intensify the visual experience, highlighting errors, selec
 
 ## Theme Essence
 
-The **Poku** Theme is defined by:
+Dark **Poku**'s theme is defined by:
 
-- **Dark background** with **light text**
-- **Soft comments** in a subtle blue-gray
-- **Lavender/purple keywords**
-- **Strings / functions** in bluish-lilac tones
-- **Selections** and **errors** highlighted in vibrant purple/pink
-- **Occasional accents** in magenta and bright blues
+- **Dark background** with **light text**.
+- **Soft comments** in a subtle blue-gray.
+- **Lavender/purple keywords**.
+- **Strings / functions** in bluish-lilac tones.
+- **Selections** and **errors** highlighted in vibrant purple/pink.
+- **Occasional accents** in magenta and bright blues.
 
 Feel free to contribute improvements, new variations, languages and even editors.

@@ -25,18 +25,6 @@ This is a monorepo to organize all the themes.
 
 ---
 
-### Languages
-
-- ✅ **JavaScript**, **TypeScript**
-  - ✅ **React.js**, **Stelve**, **Vue**
-- ✅ **HTML**, **CSS**, **SCSS**, **JSON**, **YAML**, **Markdown**
-- ✅ **SQL**, **Bash**
-- ✅ **PHP**, **C++**, **Go**, **Python**, **Ruby**, **Rust**
-
-> Although it probably works with most languages, these are the languages and frameworks that are manually checked.
-
----
-
 # Main Color Palette 👨🏻‍🎨
 
 This section describes the theme’s core color palette. It serves as a guide for developers who want to adapt the **Poku Theme** to other editors, variations or tools beyond **VSCode**.
