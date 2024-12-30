@@ -14,74 +14,13 @@
       "exchange": "NASDAQ"
     }
   },
-  "products": [
-    {
-      "name": "SmartHome Hub",
-      "category": "IoT",
-      "price": 199.99,
-      "features": [
-        "Voice Control",
-        "Energy Management",
-        "Security Integration"
-      ],
-      "compatibility": ["Amazon Alexa", "Google Home", "Apple HomeKit"]
-    },
-    {
-      "name": "CloudSync Pro",
-      "category": "Software",
-      "price": 14.99,
-      "subscription": "monthly",
-      "features": [
-        "Unlimited Storage",
-        "Real-time Collaboration",
-        "End-to-end Encryption"
-      ],
-      "platforms": ["Windows", "macOS", "Linux", "iOS", "Android"]
-    }
-  ],
-  "partnerships": [
-    {
-      "partner": "GlobalTech Solutions",
-      "type": "Research & Development",
-      "projects": ["AI-driven Analytics", "Quantum Computing Integration"]
-    },
-    {
-      "partner": "EcoSmart Innovations",
-      "type": "Sustainability Initiative",
-      "focus": ["Renewable Energy Solutions", "E-waste Reduction Programs"]
-    }
-  ],
   "financials": {
     "revenue": {
-      "2021": 50000000,
-      "2022": 75000000,
-      "2023": 100000000
+      "2021": 500,
+      "2022": 750,
+      "2023": null
     },
-    "expenses": {
-      "2021": 40000000,
-      "2022": 55000000,
-      "2023": 70000000
-    },
-    "netProfit": {
-      "2021": 10000000,
-      "2022": 20000000,
-      "2023": 30000000
-    },
-    "marketCap": 2000000000,
+    "marketCap": 1250,
     "quarterlyGrowth": 0.15
-  },
-  "futureProjects": [
-    {
-      "name": "Project Quantum",
-      "description": "Next-gen quantum computing solutions",
-      "estimatedLaunch": "2025-Q3",
-      "budget": 50000000
-    },
-    {
-      "name": "GreenTech Initiative",
-      "description": "Sustainable technology innovations",
-      "estimatedLaunch": "2024-Q2",
-      "budget": 30000000
-    }
-  ]
+  }
 }

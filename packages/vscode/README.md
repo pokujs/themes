@@ -3,7 +3,7 @@
 
 # Poku Theme ✨
 
-A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity for [Visual Studio Code](https://github.com/microsoft/vscode).
+A cute _**gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity for [Visual Studio Code](https://github.com/microsoft/vscode).
 
 💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.
 
@@ -14,10 +14,11 @@ A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwel
 ## 🔬 Languages Tried
 
 - ✅ **JavaScript**, **TypeScript**
-  - ✅ **React.js**, **Stelve**, **Vue**
-- ✅ **HTML**, **CSS**, **SCSS**, **JSON**, **YAML**, **Markdown**
-- ✅ **SQL**, **Bash**
-- ✅ **PHP**, **C++**, **Go**, **Python**, **Ruby**
+  - ✅ **React.js**, **Stelve**, **Vue**, **React Native**
+- ✅ **HTML**, **JSON**, **YAML**, **Markdown**
+- ✅ **CSS**, **SCSS**, **SASS**, **LESS**
+- ✅ **SQL**
+- ✅ **PHP**, **Bash**, **C++**, **Go**, **Python**, **Ruby**
 
 > Although it probably works with most languages, these are the languages and frameworks that are manually checked.
 
@@ -39,7 +40,7 @@ This section describes the theme’s core color palette. It serves as a guide fo
 
 ## 🌌 Dark Theme
 
-### 1. Editor Backgrounds and Main Surfaces
+### 1. Editor Backgrounds
 
 | Purpose                       | HEX       | 👨🏻‍🎨                                                                                                                     | Notes                                                  |
 | ----------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |

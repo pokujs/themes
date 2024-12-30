@@ -1,0 +1,29 @@
+---
+const items = ["Alice", "Bob", "Charlie"];
+let selected = "None";
+---
+<html lang="en">
+  <head>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll("button[data-item]").forEach((button) => {
+          button.addEventListener("click", () => document.querySelector("#selected")!.textContent = `Selected}`);
+        });
+      });
+    </script>
+  </head>
+  <body>
+      <h1 id="selected">Selected: {selected}</h1>
+      <ul>
+        {items.length > 0 ? (
+          items.map((item) => (
+            <li>
+              <button data-item={item}>{item}</button>
+            </li>
+          ))
+        ) : (
+          <li>No items available</li>
+        )}
+      </ul>
+  </body>
+</html>

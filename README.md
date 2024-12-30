@@ -17,9 +17,9 @@ A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwel
 
 This is a monorepo to organize all the themes.
 
-| Name                   | Package                                    |
-| ---------------------- | ------------------------------------------ |
-| **Visual Studio Code** | [./packages/**vscode**](./packages/vscode) |
+|                                                                                                                | Name                   | Package                                              |
+| -------------------------------------------------------------------------------------------------------------- | ---------------------- | ---------------------------------------------------- |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="16" /> | **Visual Studio Code** | [./packages/**vscode**](./packages/vscode/README.md) |
 
 - If your favorite editor isn't here, how about contributing? 🙌
 
@@ -33,7 +33,7 @@ This section describes the theme’s core color palette. It serves as a guide fo
 
 ## 🌌 Dark Theme
 
-### 1. Editor Backgrounds and Main Surfaces
+### 1. Editor Backgrounds
 
 | Purpose                       | HEX       | 🎨                                                                                                                     | Notes                                                  |
 | ----------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |

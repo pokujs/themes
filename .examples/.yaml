@@ -1,0 +1,25 @@
+metadata:
+  title: '🎲 Sample YAML Document'
+  author: 'John Doe'
+  version: 1.0
+  tags:
+    - yaml
+    - example
+
+settings:
+  enabled: true
+  maxRetries: 5
+  timeout: 30s
+  database:
+    host: 'localhost'
+    port: 5432
+
+data:
+  users:
+    - name: 'Alice'
+      age: 25
+      role: 'admin'
+
+    - name: 'Bob'
+      age: 30
+      role: 'user'
