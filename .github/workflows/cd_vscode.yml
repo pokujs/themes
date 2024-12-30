@@ -27,7 +27,7 @@ jobs:
         run: cd ./packages/vscode && npm ci
 
       - name: Build theme
-        run: cd ./packages/vscodenpm run build
+        run: cd ./packages/vscode && npm run build
 
       - name: Publish to VSCode Marketplace
         env:
