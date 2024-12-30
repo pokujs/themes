@@ -1,6 +1,12 @@
 {
-  "name": "themes",
   "private": true,
+  "name": "themes",
   "type": "module",
-  "scripts": {}
+  "scripts": {
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }

@@ -18,5 +18,9 @@
         "path": "./themes/Poku Theme-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
   }
 }
