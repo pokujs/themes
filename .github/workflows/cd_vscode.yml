@@ -1,0 +1,35 @@
+name: Publish VSCode
+
+on:
+  workflow_dispatch:
+
+jobs:
+  vscode:
+    name: Publish Theme
+    runs-on: ubuntu-latest
+    steps:
+      - name: ➕ Checkout repository
+        uses: actions/checkout@v4
+
+      - name: ➕ Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: ➕ Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-linux-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-linux-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build theme
+        run: npm run build
+
+      - name: Publish to VSCode Marketplace
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: npm run publish
