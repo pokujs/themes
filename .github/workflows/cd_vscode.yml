@@ -1,4 +1,4 @@
-name: Publish VSCode
+name: 🚀 Publish VSCode
 
 on:
   workflow_dispatch:
@@ -24,12 +24,12 @@ jobs:
           restore-keys: npm-linux-
 
       - name: Install dependencies
-        run: npm ci
+        run: cd ./packages/vscode && npm ci
 
       - name: Build theme
-        run: npm run build
+        run: cd ./packages/vscodenpm run build
 
       - name: Publish to VSCode Marketplace
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: npm run publish
+        run: cd ./packages/vscode && npm run publish
