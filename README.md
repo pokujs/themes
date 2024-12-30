@@ -3,7 +3,7 @@
 
 # Poku Theme ✨
 
-A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity.
+A c\*ute **gothic pastel\*** theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity.
 
 💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.
 

@@ -3,7 +3,7 @@
 
 # Poku Theme ✨
 
-A cute _**gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity for [Visual Studio Code](https://github.com/microsoft/vscode).
+A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity for [Visual Studio Code](https://github.com/microsoft/vscode).
 
 💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.
 
@@ -14,9 +14,9 @@ A cute _**gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 ## 🔬 Languages Tried
 
 - ✅ **JavaScript**, **TypeScript**
-  - ✅ **React.js**, **Stelve**, **Vue**, **React Native**
-- ✅ **HTML**, **JSON**, **YAML**, **Markdown**
-- ✅ **CSS**, **SCSS**, **SASS**, **LESS**
+  - ✅ **React.js**, **Svelte**, **Vue**, **React Native**
+- ✅ **HTML**, **JSON**, **JSONC**, **YAML**, **Markdown**
+- ✅ **CSS**, **SCSS**, **Sass**, **Less**
 - ✅ **SQL**
 - ✅ **PHP**, **Bash**, **C++**, **Go**, **Python**, **Ruby**
 
@@ -65,7 +65,7 @@ This section describes the theme’s core color palette. It serves as a guide fo
 | **Functions / Methods**          | `#c5bfff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/c5bfff.png" />   | Function names, `meta.function-call`, methods, constructors, etc.          |
 | **Variables**                    | `#8dc0ff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/8dc0ff.png" />   | Local/global variables, placeholders in strings.                           |
 | **Native properties and values** | `#38a2ff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/38a2ff.png" />   | Built-in properties _(`this`, `lenght`, `null`, etc.)_.                    |
-| **Classes**                      | `#0fb9b1`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/0fb9b1.png" />   | Classes, including **JSX**, **Vue**, **Stelve**, and **Astro** components. |
+| **Classes**                      | `#0fb9b1`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/0fb9b1.png" />   | Classes, including **JSX**, **Vue**, **Svelte**, and **Astro** components. |
 | **Types**                        | `#0fb9b0d1` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/0fb9b0d1.png" /> | Types, annotations, etc. (often _italic_).                                 |
 | **Numbers / Units**              | `#80cc8f`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/80cc8f.png" />   | Numeric constants, CSS units, etc. (often **bold**).                       |
 
