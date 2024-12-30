@@ -29,12 +29,20 @@
       {
         "label": "Poku Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Poku Theme-color-theme.json"
+        "path": "./themes/dark.json"
       }
     ]
   },
   "scripts": {
     "lint": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "prebuild": "tsx src/compile.ts",
+    "build": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@vscode/vsce": "^3.2.1",
+    "jsonc.min": "^1.1.0",
+    "tsx": "^4.19.2"
   }
 }
