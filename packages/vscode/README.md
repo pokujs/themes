@@ -20,7 +20,8 @@ A cute **gothic pastel** theme inspired by [**Poku**](https://github.com/wellwel
 - ✅ **PHP**, **C++**, **Go**, **Python**, **Ruby**
 
 Soon:
- - **Rust**, **Dart**, **Flutter**, and **Astro**.
+
+- **Rust**, **Dart**, **Flutter**, and **Astro**.
 
 > Although it probably works with most languages, these are the languages and frameworks that are manually checked.
 
