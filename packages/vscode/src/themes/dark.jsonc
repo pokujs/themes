@@ -662,7 +662,8 @@
       "scope": [
         "punctuation.definition.list_item.markdown",
         "meta.paragraph.markdown",
-        "entity.name.section.markdown"
+        "entity.name.section.markdown",
+        "markup.table.markdown"
       ],
       "settings": {
         "foreground": "#cbd5e1"
@@ -671,11 +672,27 @@
     {
       "scope": [
         "markdown.heading",
-        "markup.heading | markup.heading entity.name",
+        "markup.heading",
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
         "foreground": "#308dff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.heading entity.name",
+        "markup.heading entity.name.section.markdown",
+        "heading.1.markdown",
+        "heading.2.markdown",
+        "heading.3.markdown",
+        "heading.4.markdown",
+        "heading.5.markdown",
+        "heading.6.markdown"
+      ],
+      "settings": {
+        "foreground": "#73abee",
         "fontStyle": "bold"
       }
     },
