@@ -88,7 +88,9 @@
         "source.vue punctuation.definition.tag.begin.html",
         "source.vue punctuation.definition.tag.end.html",
         "punctuation.definition.tag.begin.astro",
-        "punctuation.definition.tag.end.astro"
+        "punctuation.definition.tag.end.astro",
+        "punctuation.definition.tag.end.jsx",
+        "punctuation.definition.tag.begin.jsx"
       ],
       "settings": {
         "foreground": "#1b9294"
@@ -389,7 +391,10 @@
     {
       "scope": [
         "string.other.link.title.markdown",
-        "string.other.link.description.markdown"
+        "string.other.link.description.markdown",
+        "variable.ordered.list.mdx",
+        "string.other.begin.link.mdx",
+        "string.other.end.link.mdx"
       ],
       "settings": {
         "foreground": "#9dabed"
@@ -653,7 +658,8 @@
         "entity.name.tag.style.html.vue",
         "source.vue entity.name.tag.html",
         "entity.name.tag.astro",
-        "meta.scope.tag.html.astro"
+        "meta.scope.tag.html.astro",
+        "source.mdx entity.name.tag.jsx"
       ],
       "settings": {
         "foreground": "#0fb9b1",
@@ -711,6 +717,7 @@
       "scope": [
         "punctuation.definition.list_item.markdown",
         "meta.paragraph.markdown",
+        "meta.paragraph.mdx",
         "entity.name.section.markdown",
         "markup.table.markdown"
       ],

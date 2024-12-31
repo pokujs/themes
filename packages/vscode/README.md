@@ -15,7 +15,7 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 - ✅ **JavaScript**, **TypeScript**, **Dart**
   - ✅ **React.js**, **Svelte**, **Vue**, **React Native**, **Astro**, **Flutter**
-- ✅ **HTML**, **JSON**, **JSONC**, **YAML**, **Markdown**
+- ✅ **HTML**, **JSON**, **JSONC**, **YAML**, **Markdown**, **MDX**
 - ✅ **CSS**, **SCSS**, **Sass**, **Less**
 - ✅ **SQL**
 - ✅ **PHP**, **Bash**, **Rust**, **C++**, **Go**, **Python**, **Ruby**
