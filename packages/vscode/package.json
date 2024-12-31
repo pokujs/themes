@@ -44,8 +44,7 @@
     ]
   },
   "scripts": {
-    "lint": "prettier --check .",
-    "lint:fix": "prettier --write .",
+    "watch": "nodemon --config nodemon.json",
     "prebuild": "tsx src/compile.ts",
     "build": "vsce package",
     "postbuild": "vsce ls --tree",
@@ -55,6 +54,7 @@
     "@types/node": "^22.10.2",
     "@vscode/vsce": "^3.2.1",
     "jsonc.min": "^1.1.0",
+    "nodemon": "^3.1.9",
     "tsx": "^4.19.2"
   },
   "keywords": [
