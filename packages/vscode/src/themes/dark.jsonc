@@ -501,13 +501,17 @@
     {
       "scope": [
         "entity.name.function",
-        "entity.name.function.cs",
         "meta.function-call",
         "variable.function",
         "support.function",
         "keyword.other.special-method",
         "meta.class-method.js entity.name.function.js",
-        "variable.function.constructor"
+        "variable.function.constructor",
+        "source.cpp operatorOverload",
+        "source.cpp memberOperatorOverload",
+        "entity.name.function.operator.member.cpp",
+        "source.cpp keyword.operator.bitwise.shift",
+        "source.cpp keyword.other.special-method"
       ],
       "settings": {
         "foreground": "#c5bfff"
@@ -689,7 +693,9 @@
         "punctuation.definition.typeparameters",
         "punctuation.definition.typeparameters.begin",
         "punctuation.definition.typeparameters.end",
-        "source.rust entity.name.type"
+        "source.rust entity.name.type",
+        "storage.type.primitive.cpp",
+        "storage.type.built-in.primitive.cpp"
       ],
       "settings": {
         "foreground": "#0fb9b0d1",
