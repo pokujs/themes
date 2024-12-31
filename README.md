@@ -11,7 +11,7 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 ---
 
-## Editors
+## Packages 📦
 
 This is a _monorepo_ to organize all the themes:
 
