@@ -9,7 +9,7 @@ on:
 
 jobs:
   lint:
-    name: Check (Global)
+    name: Global
     runs-on: ubuntu-latest
     timeout-minutes: 5
     strategy:
