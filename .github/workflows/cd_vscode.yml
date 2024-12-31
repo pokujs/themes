@@ -28,11 +28,11 @@ jobs:
           key: npm-vscode-${{ hashFiles('./packages/vscode/package-lock.json') }}
           restore-keys: npm-vscode-
 
-      # - name: 📦 Publish to VSCode Marketplace
-      #   working-directory: ./packages/vscode
-      #   run: |
-      #     npm ci
-      #     npm run build
-      #     npm run publish
-      #   env:
-      #     VSCE_PAT: ${{ secrets.VSCE_PAT }}
+      - name: 📦 Publish to VSCode Marketplace
+        working-directory: ./packages/vscode
+        run: |
+          npm ci
+          npm run build
+          npm run publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
