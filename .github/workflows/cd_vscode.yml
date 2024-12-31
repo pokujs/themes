@@ -1,12 +1,16 @@
-name: 🚀 Publish VSCode
+name: 🚀 CD — VSCode
 
 on:
+  push:
+    branches:
+      - 'main'
   workflow_dispatch:
 
 jobs:
-  vscode:
-    name: Publish Theme
+  publish:
+    name: Publish
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' && github.event.head_commit.message == 'chore(bump): vscode'
     steps:
       - name: ➕ Checkout repository
         uses: actions/checkout@v4
@@ -20,16 +24,14 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.npm
-          key: npm-linux-${{ hashFiles('package-lock.json') }}
-          restore-keys: npm-linux-
+          key: npm-vscode-${{ hashFiles('./packages/vscode/package-lock.json') }}
+          restore-keys: npm-vscode-
 
-      - name: Install dependencies
-        run: cd ./packages/vscode && npm ci
-
-      - name: Build theme
-        run: cd ./packages/vscode && npm run build
-
-      - name: Publish to VSCode Marketplace
+      - name: 📦 Publish to VSCode Marketplace
+        working-directory: ./packages/vscode
+        run: |
+          npm ci
+          npm run build
+          npm run publish
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: cd ./packages/vscode && npm run publish
