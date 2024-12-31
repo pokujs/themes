@@ -169,20 +169,6 @@
     },
     {
       "scope": [
-        "constant.language",
-        "keyword.other",
-        "support.constant",
-        "support.variable.property",
-        "variable.language.this",
-        "variable.language.self.rust"
-      ],
-      "settings": {
-        "foreground": "#38a2ff",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": [
         "punctuation.definition.link.title.begin.markdown",
         "punctuation.definition.link.title.end.markdown"
       ],
@@ -770,6 +756,22 @@
         "foreground": "#89c4f4"
       }
     },
+    {
+      "scope": [
+        "constant.language",
+        "keyword.other",
+        "support.constant",
+        "support.variable.property",
+        "variable.language.this",
+        "variable.language.self.rust",
+        "source.css support.constant.property-value",
+        "variable.parameter.function.language.special.self.python"
+      ],
+      "settings": {
+        "foreground": "#38a2ff",
+        "fontStyle": "italic"
+      }
+    },
 
     // Reset Font Styles
     {
@@ -787,7 +789,8 @@
         "entity.other.attribute-name.js.jsx",
         "keyword.other.fn.rust",
         "keyword.other.rust",
-        "storage.modifier.dart"
+        "storage.modifier.dart",
+        "source.css support.type.property-name"
       ],
       "settings": {
         "fontStyle": ""
