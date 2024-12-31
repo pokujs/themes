@@ -13,7 +13,7 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 ## Editors
 
-This is a monorepo to organize all the themes.
+This is a _monorepo_ to organize all the themes:
 
 |                                                                                                                | Name                   | Package                                    |
 | -------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------------------ |
