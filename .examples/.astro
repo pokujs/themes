@@ -17,8 +17,10 @@ let selected = "None";
         )}
       </ul>
       <script>
-        document.querySelectorAll("button[data-item]").forEach((button) => {
-          button.addEventListener("click", () => document.querySelector("#selected")!.textContent = `Selected}`);
+        document.querySelectorAll("button").forEach((button) => {
+          button.addEventListener("click", () => {
+            document.querySelector(".selected")!.textContent = 'Selected';
+          });
         });
       </script>
   </body>

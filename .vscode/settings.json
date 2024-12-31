@@ -11,5 +11,12 @@
   },
   "[markdown]": {
     "files.trimTrailingWhitespace": false
+  },
+  "files.exclude": {
+    ".examples/node_modules": true,
+    ".examples/need-help": true,
+    ".examples/.vscode": true,
+    ".examples/package-lock.json": true,
+    ".examples/package.json": true
   }
 }

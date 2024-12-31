@@ -11,11 +11,10 @@
   }
 
   const calculateYearOfBirth = (currentYear, age) => currentYear - age;
+
   const currentYear = new Date().getFullYear();
-
-  let personName = 'Alice';
-  let personAge = 30;
-
+  const personName = 'Alice';
+  const personAge = 30;
   const person = new Person(personName, personAge);
   const yearOfBirth = calculateYearOfBirth(currentYear, personAge);
 

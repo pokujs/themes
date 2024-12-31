@@ -1,9 +1,6 @@
 (() => {
   class Person {
-    name: string;
-    age: number;
-
-    constructor(name: string, age: number) {
+    constructor(public name: string, private age: number) {
       this.name = name;
       this.age = age;
     }
@@ -13,15 +10,16 @@
     }
   }
 
-  const calculateYearOfBirth = (currentYear: number, age: number): number => currentYear - age;
+  const calculateYearOfBirth = (currentYear: number, age: number) => {
+    return currentYear - age;
+  }
+
   const currentYear = new Date().getFullYear();
-
-  let personName: string = 'Alice';
-  let personAge: number = 30;
-
+  const personName: string = 'Alice';
+  const personAge: number = 30;
   const person = new Person(personName, personAge);
   const yearOfBirth = calculateYearOfBirth(currentYear, personAge);
 
-  console.log(person.greet());
+  person.greet();
   console.log(`${person.name} was born in ${yearOfBirth}.`);
 })();
