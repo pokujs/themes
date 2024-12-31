@@ -11,9 +11,7 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 ---
 
-## Compatibilty
-
-### Editors
+## Editors
 
 This is a monorepo to organize all the themes.
 
@@ -25,15 +23,15 @@ This is a monorepo to organize all the themes.
 
 ---
 
-# Main Color Palette 👨🏻‍🎨
+## Main Color Palette 👨🏻‍🎨
 
 This section describes the theme’s core color palette. It serves as a guide for developers who want to adapt the **Poku Theme** to other editors, variations or tools beyond **VSCode**.
 
 ---
 
-## 🌌 Dark Theme
+### 🌌 Dark Theme
 
-### 1. Editor Backgrounds
+#### 1. Editor Backgrounds
 
 | Purpose                       | HEX       | 🎨                                                                                                                     | Notes                                                  |
 | ----------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
@@ -45,7 +43,7 @@ This section describes the theme’s core color palette. It serves as a guide fo
 
 ---
 
-### 2. Text and General Elements
+#### 2. Text and General Elements
 
 | Purpose                          | HEX         | 🎨                                                                                                                       | Notes                                                                      |
 | -------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
@@ -66,7 +64,7 @@ These colors appear throughout **syntax highlighting**, driving legibility and c
 
 ---
 
-### 3. Accents / Specific Highlights
+#### 3. Accents / Specific Highlights
 
 | Purpose                      | HEX         | 🎨                                                                                                                       | Notes                                                       |
 | ---------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
@@ -79,7 +77,7 @@ These vibrant shades intensify the visual experience, highlighting errors, selec
 
 ---
 
-### 4. Edtior Miscellaneous Colors
+#### 4. Edtior Miscellaneous Colors
 
 | Purpose                     | HEX         | 🎨                                                                                                                       |
 | --------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -92,7 +90,7 @@ These vibrant shades intensify the visual experience, highlighting errors, selec
 
 ---
 
-## Theme Essence
+#### 5. Theme Essence
 
 Dark **Poku**'s theme is defined by:
 
