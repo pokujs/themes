@@ -3,18 +3,9 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f0f0f0;
-}
-
 .button {
   padding: 10px 20px;
   background-color: #007bff;
-  color: #fff;
   border: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -22,4 +13,12 @@ body {
 
 .button:hover {
   background-color: #0056b3;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
 }

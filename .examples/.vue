@@ -17,10 +17,7 @@
 <script>
 export default {
   data() {
-    return {
-      items: ["Alice", "Bob", "Charlie"],
-      selected: "None",
-    };
+    return { items: ["Alice", "Bob", "Charlie"], selected: "None" };
   },
   methods: {
     selectItem(item) {

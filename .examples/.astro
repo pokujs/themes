@@ -3,15 +3,6 @@ const items = ["Alice", "Bob", "Charlie"];
 let selected = "None";
 ---
 <html lang="en">
-  <head>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll("button[data-item]").forEach((button) => {
-          button.addEventListener("click", () => document.querySelector("#selected")!.textContent = `Selected}`);
-        });
-      });
-    </script>
-  </head>
   <body>
       <h1 id="selected">Selected: {selected}</h1>
       <ul>
@@ -25,5 +16,10 @@ let selected = "None";
           <li>No items available</li>
         )}
       </ul>
+      <script>
+        document.querySelectorAll("button[data-item]").forEach((button) => {
+          button.addEventListener("click", () => document.querySelector("#selected")!.textContent = `Selected}`);
+        });
+      </script>
   </body>
 </html>
