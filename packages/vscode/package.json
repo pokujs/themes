@@ -2,7 +2,7 @@
   "name": "poku-theme",
   "displayName": "Poku Theme",
   "description": "A cute gothic pastel theme inspired by Poku's visual identity for Visual Studio Code 🐷",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "license": "MIT",
   "homepage": "https://poku.io",
@@ -48,6 +48,13 @@
     "prebuild": "tsx src/compile.ts",
     "build": "vsce package",
     "postbuild": "vsce ls --tree",
+    "bump": "echo '— To publish, commit \"chore(bump): vscode\" to remote \"main\" branch.'",
+    "bump:patch": "npm version patch --no-git-tag-version",
+    "postbump:patch": "npm run bump",
+    "bump:minor": "npm version minor --no-git-tag-version",
+    "postbump:minor": "npm run bump",
+    "bump:major": "npm version major --no-git-tag-version",
+    "postbump:major": "npm run bump",
     "publish": "vsce publish"
   },
   "devDependencies": {
