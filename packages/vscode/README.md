@@ -14,17 +14,17 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 ## 🔬 Languages Tried
 
 - ✅ **JavaScript**, **TypeScript**
-  - ✅ **React.js**, **Svelte**, **Vue**, **React Native**
+  - ✅ **React.js**, **Svelte**, **Vue**, **React Native**, **Astro**
 - ✅ **HTML**, **JSON**, **JSONC**, **YAML**, **Markdown**
 - ✅ **CSS**, **SCSS**, **Sass**, **Less**
 - ✅ **SQL**
-- ✅ **PHP**, **Bash**, **C++**, **Go**, **Python**, **Ruby**
+- ✅ **PHP**, **Bash**, **Rust**, **C++**, **Go**, **Python**, **Ruby**
 
 > Although it probably works with most languages, these are the languages and frameworks that are manually checked.
 
 ### Soon:
 
-- ⚠️ **Rust**, **Dart**, **Flutter**, and **Astro**.
+- ⚠️ **Dart** and **Flutter**.
 
 ### I'd love your help with:
 

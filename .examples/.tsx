@@ -18,7 +18,7 @@ export const App: React.FC<{ name: string }> = ({ name }) => {
   const person = new Person(name, 30);
 
   return (
-    <div>
+    <div className='hi'>
       <p>{person.greet()}</p>
     </div>
   );

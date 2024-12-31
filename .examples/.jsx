@@ -15,7 +15,7 @@ export const App = ({ name }) => {
   const person = new Person(name, 30);
 
   return (
-    <div>
+    <div className='hi'>
       <p>{person.greet()}</p>
     </div>
   );

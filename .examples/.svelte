@@ -15,6 +15,6 @@
   {#each items as item}
     <button on:click={() => selectItem(item)}>{item}</button>
   {:else}
-    <li>No items found</li>
+    <li class="ops">No items found</li>
   {/each}
 </ul>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="Hi">
     <h1>Selected: {{ selected }}</h1>
     <ul>
       <li

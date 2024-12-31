@@ -80,12 +80,15 @@
         "punctuation.definition.tag.begin.js.jsx",
         "punctuation.definition.tag.end.js.jsx",
         "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
         "punctuation.definition.tag.begin.svelte",
         "punctuation.definition.tag.end.svelte",
         "punctuation.definition.tag.begin.html.vue",
         "punctuation.definition.tag.end.html.vue",
         "source.vue punctuation.definition.tag.begin.html",
-        "source.vue punctuation.definition.tag.end.html"
+        "source.vue punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.astro",
+        "punctuation.definition.tag.end.astro"
       ],
       "settings": {
         "foreground": "#1b9294"
@@ -101,19 +104,6 @@
       "scope": ["text.html.markdown punctuation.definition.metadata.markdown"],
       "settings": {
         "foreground": "#355399"
-      }
-    },
-    {
-      "scope": [
-        "constant.language",
-        "keyword.other",
-        "support.constant",
-        "support.variable.property",
-        "variable.language.this"
-      ],
-      "settings": {
-        "foreground": "#38a2ff",
-        "fontStyle": "italic"
       }
     },
     {
@@ -173,6 +163,20 @@
       ],
       "settings": {
         "foreground": "#6aa8db"
+      }
+    },
+    {
+      "scope": [
+        "constant.language",
+        "keyword.other",
+        "support.constant",
+        "support.variable.property",
+        "variable.language.this",
+        "variable.language.self.rust"
+      ],
+      "settings": {
+        "foreground": "#38a2ff",
+        "fontStyle": "italic"
       }
     },
     {
@@ -277,7 +281,9 @@
         "punctuation.definition.string.begin",
         "punctuation.definition.string.end",
         "punctuation.definition.string.template.begin",
-        "punctuation.definition.string.template.end"
+        "punctuation.definition.string.template.end",
+        "punctuation.definition.string.rust",
+        "punctuation.definition.char.rust"
       ],
       "settings": {
         "foreground": "#8ca8cd8f"
@@ -289,7 +295,14 @@
         "string constant.other.placeholder",
         "variable.other.property",
         "punctuation.definition.variable.php",
-        "source.sql"
+        "source.sql",
+        "string.quoted.other.backtick.sql",
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.js.jsx",
+        "meta.tag.attributes.tsx",
+        "meta.tag.attributes.js.jsx",
+        "entity.other.attribute-name.svelte",
+        "source.rust"
       ],
       "settings": {
         "foreground": "#8dc0ff"
@@ -321,7 +334,12 @@
       "scope": [
         "keyword.operator.logical",
         "keyword.operator.comparison",
-        "storage.modifier.sql"
+        "meta.create.sql",
+        "keyword.other.create.sql",
+        "storage.modifier.sql",
+        "keyword.other.DML.sql",
+        "keyword.operator.herestring.shell",
+        "keyword.operator.logical.shell"
       ],
       "settings": {
         "foreground": "#9294ff"
@@ -373,6 +391,16 @@
     },
     {
       "scope": [
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html"
+      ],
+      "settings": {
+        "foreground": "#3f69d1"
+      }
+    },
+    {
+      "scope": [
         "keyword",
         "storage.type",
         "storage.modifier",
@@ -381,9 +409,6 @@
         "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution",
@@ -394,7 +419,9 @@
         "text.html.markdown",
         "constant.other.reference.link.markdown",
         "markup.changed",
-        "markup.raw.block"
+        "markup.raw.block",
+        "keyword.other.fn.rust",
+        "keyword.other.rust"
       ],
       "settings": {
         "foreground": "#a29bfe"
@@ -408,7 +435,10 @@
       }
     },
     {
-      "scope": ["meta.template.expression"],
+      "scope": [
+        "meta.template.expression",
+        "punctuation.definition.interpolation.rust"
+      ],
       "settings": {
         "foreground": "#a29bfea3"
       }
@@ -595,7 +625,12 @@
       }
     },
     {
-      "scope": ["support.class", "meta.class", "support.class.builtin"],
+      "scope": [
+        "support.class",
+        "meta.class",
+        "support.class.builtin",
+        "entity.name.type.rust"
+      ],
       "settings": {
         "foreground": "#0fb9b1"
       }
@@ -608,7 +643,9 @@
         "entity.name.tag.template.html.vue",
         "entity.name.tag.script.html.vue",
         "entity.name.tag.style.html.vue",
-        "source.vue entity.name.tag.html"
+        "source.vue entity.name.tag.html",
+        "entity.name.tag.astro",
+        "meta.scope.tag.html.astro"
       ],
       "settings": {
         "foreground": "#0fb9b1",
@@ -634,7 +671,11 @@
         "keyword.other.type.php",
         "storage.type.string.go",
         "storage.type.numeric.go",
-        "storage.type.boolean.go"
+        "storage.type.boolean.go",
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.typeparameters.begin",
+        "punctuation.definition.typeparameters.end",
+        "source.rust entity.name.type"
       ],
       "settings": {
         "foreground": "#0fb9b0d1",
@@ -706,6 +747,28 @@
       ],
       "settings": {
         "foreground": "#89c4f4"
+      }
+    },
+
+    // Reset Font Styles
+    {
+      "scope": [
+        "keyword.other.create.sql",
+        "keyword.other.sql",
+        "storage.modifier.sql",
+        "keyword.other.DDL.create.II.sql",
+        "keyword.other.DML.sql",
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.template",
+        "punctuation.section.embedded",
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.js.jsx",
+        "keyword.other.fn.rust",
+        "keyword.other.rust"
+      ],
+      "settings": {
+        "fontStyle": ""
       }
     }
   ]
