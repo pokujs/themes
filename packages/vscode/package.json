@@ -48,6 +48,7 @@
     "prebuild": "tsx src/compile.ts",
     "build": "vsce package",
     "postbuild": "vsce ls --tree",
+    "prebump": "cd .. && npm run lint:fix",
     "bump": "echo '— To publish, commit \"chore(bump): vscode\" to remote \"main\" branch.'",
     "bump:patch": "npm version patch --no-git-tag-version",
     "postbump:patch": "npm run bump",
