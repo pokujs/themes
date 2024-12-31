@@ -9,11 +9,11 @@ on:
 
 jobs:
   lint:
+    name: Check
     runs-on: ubuntu-latest
     timeout-minutes: 5
     strategy:
       fail-fast: false
-    name: Check
     steps:
       - name: ➕ Actions - Checkout
         uses: actions/checkout@v4
@@ -21,7 +21,7 @@ jobs:
       - name: ➕ Actions - Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
+          node-version: 22
 
       - name: ➕ Cache dependencies
         uses: actions/cache@v4

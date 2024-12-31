@@ -7,13 +7,15 @@ on:
   pull_request:
   workflow_dispatch:
 
+# Visual Studio Code (./packages/vscode)
 jobs:
   vscode:
+    name: Visual Studio Code
     runs-on: ubuntu-latest
     timeout-minutes: 5
     strategy:
       fail-fast: false
-    name: Visual Studio Code
+
     steps:
       - name: ➕ Actions - Checkout
         uses: actions/checkout@v4
@@ -21,14 +23,13 @@ jobs:
       - name: ➕ Actions - Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
+          node-version: 22
 
       - name: ➕ Cache dependencies
         uses: actions/cache@v4
-        working-directory: ./packages/vscode
         with:
           path: ~/.npm
-          key: npm-vscode-${{ hashFiles('package-lock.json') }}
+          key: npm-vscode-${{ hashFiles('./packages/vscode/package-lock.json') }}
           restore-keys: npm-vscode-
 
       - name: 📦 Building
