@@ -1,4 +1,4 @@
-name: 🚀 CD — VSCode
+name: 🚀 CD — Publish
 
 on:
   push:
@@ -7,8 +7,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish:
-    name: Publish
+  # Visual Studio Code (./packages/vscode)
+  vscode:
+    name: Visual Studio Code
     runs-on: ubuntu-latest
     if: "github.ref == 'refs/heads/main' && github.event.head_commit.message == 'chore(bump): vscode'"
 
