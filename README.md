@@ -23,6 +23,12 @@ This is a _monorepo_ to organize all the themes:
 
 ---
 
+## 💡 Some samples
+
+<img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/svelte.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/react.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/html.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/yaml.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/php.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/java.png" width=480 />
+
+---
+
 ## Main Color Palette 👨🏻‍🎨
 
 This section describes the theme’s core color palette. It serves as a guide for developers who want to adapt the **Poku Theme** to other editors, variations or tools beyond **VSCode**.
