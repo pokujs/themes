@@ -253,7 +253,11 @@
       }
     },
     {
-      "scope": ["punctuation.separator.comma", "punctuation.terminator"],
+      "scope": [
+        "punctuation.separator.comma",
+        "punctuation.terminator",
+        "punctuation.separator.dictionary.pair.json"
+      ],
       "settings": {
         "foreground": "#7e8faf"
       }

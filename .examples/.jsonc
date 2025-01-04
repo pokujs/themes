@@ -1,0 +1,26 @@
+{
+  "company": {
+    "name": "Tech Innovations Inc.",
+    "founded": 2010,
+    "headquarters": {
+      "city": "San Francisco",
+      "state": "California",
+      "country": "USA"
+    },
+    "employees": 500,
+    "publiclyTraded": true,
+    "stock": {
+      "symbol": "TCIN",
+      "exchange": "NASDAQ"
+    }
+  },
+  "financials": {
+    "revenue": {
+      "2021": 500,
+      "2022": 750,
+      "2023": null
+    },
+    "marketCap": 1250,
+    "quarterlyGrowth": 0.15
+  }
+}
