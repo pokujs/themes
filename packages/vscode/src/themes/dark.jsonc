@@ -302,7 +302,9 @@
         "source.dart",
         "meta.embedded.expression.dart",
         "source.php meta.embedded.block",
-        "source.css variable"
+        "source.css variable",
+        "source.java",
+        "source.java meta.function-call"
       ],
       "settings": {
         "foreground": "#8dc0ff"
@@ -654,7 +656,11 @@
         "storage.type.built-in.primitive.cpp",
         "storage.type.built-in.primitive.c",
         "entity.name.type.go",
-        "storage.type.primitive.dart"
+        "storage.type.primitive.dart",
+        "storage.type.primitive.java",
+        "meta.method.return-type.java",
+        "storage.type.object.array.java",
+        "storage.type.java"
       ],
       "settings": {
         "foreground": "#0fb9b0d1",
@@ -765,7 +771,8 @@
         "keyword.other.rust",
         "storage.modifier.dart",
         "source.css support.type.property-name",
-        "source.c storage.modifier"
+        "source.c storage.modifier",
+        "storage.modifier.java"
       ],
       "settings": {
         "fontStyle": ""
