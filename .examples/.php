@@ -6,12 +6,12 @@ use PDO;
 class Person {
   private string $name;
   private int $age;
-  static int $test;
+  public static int $test;
 
   public function __construct(string $name, int $age) {
     $this->name = $name;
     $this->age = $age;
-    self::test;
+    self::$test = 0;
   }
 
   public function greet(): string {
