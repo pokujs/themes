@@ -197,19 +197,6 @@
       }
     },
     {
-      "scope": ["source.css variable"],
-      "settings": {
-        "foreground": "#7bc3fe",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": ["punctuation.terminator.rule.css"],
-      "settings": {
-        "foreground": "#7fc2f9bb"
-      }
-    },
-    {
       "scope": [
         "constant.numeric",
         "constant.character",
@@ -253,7 +240,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#87c1f0"
+        "foreground": "#87acf0"
       }
     },
     {
@@ -266,12 +253,9 @@
       }
     },
     {
-      "scope": [
-        "punctuation.separator.comma",
-        "punctuation.terminator.statement"
-      ],
+      "scope": ["punctuation.separator.comma", "punctuation.terminator"],
       "settings": {
-        "foreground": "#899cc3"
+        "foreground": "#7e8faf"
       }
     },
     {
@@ -313,7 +297,8 @@
         "source.rust",
         "source.dart",
         "meta.embedded.expression.dart",
-        "source.php meta.embedded.block"
+        "source.php meta.embedded.block",
+        "source.css variable"
       ],
       "settings": {
         "foreground": "#8dc0ff"
@@ -468,7 +453,8 @@
         "keyword.operator.expression.is",
         "meta.qualified_type",
         "entity.name.scope-resolution",
-        "keyword.other.phpdoc"
+        "keyword.other.phpdoc",
+        "punctuation.separator.annotation.result.python"
       ],
       "settings": {
         "foreground": "#a29bfed6",
@@ -515,7 +501,9 @@
         "source.cpp memberOperatorOverload",
         "entity.name.function.operator.member.cpp",
         "source.cpp keyword.operator.bitwise.shift",
-        "source.cpp keyword.other.special-method"
+        "source.cpp keyword.other.special-method",
+        "punctuation.section.function.begin.python",
+        "punctuation.section.function.end.python"
       ],
       "settings": {
         "foreground": "#c5bfff"
@@ -616,37 +604,6 @@
       }
     },
     {
-      "scope": ["*url*", "*link*", "*uri*"],
-      "settings": {
-        "fontStyle": "underline"
-      }
-    },
-    {
-      "scope": ["markup.italic"],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "scope": ["markup.bold", "markup.bold string", "markup heading"],
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "scope": [
-        "markup.bold markup.italic",
-        "markup.italic markup.bold",
-        "markup.quote markup.bold",
-        "markup.bold markup.italic string",
-        "markup.italic markup.bold string",
-        "markup.quote markup.bold string"
-      ],
-      "settings": {
-        "fontStyle": "bold"
-      }
-    },
-    {
       "scope": [
         "entity.name.tag.tsx",
         "entity.name.tag.js.jsx",
@@ -669,6 +626,7 @@
         "entity.name.type.alias",
         "support.type",
         "support.other.namespace.use.php",
+        "entity.name.type.namespace",
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
@@ -812,10 +770,31 @@
     {
       "scope": [
         "punctuation.section.embedded.begin.php",
-        "punctuation.section.embedded.end.php"
+        "punctuation.section.embedded.end.php",
+        "markup.bold",
+        "markup.bold string",
+        "markup heading",
+        "markup.bold markup.italic",
+        "markup.italic markup.bold",
+        "markup.quote markup.bold",
+        "markup.bold markup.italic string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold string"
       ],
       "settings": {
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["*url*", "*link*", "*uri*"],
+      "settings": {
+        "fontStyle": "underline"
       }
     }
   ]
