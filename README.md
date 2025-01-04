@@ -5,7 +5,8 @@
 
 A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity.
 
-💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.
+💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.<br />
+It's not just about combining colors, but establishing consistency between different language syntaxes.
 
 </div>
 
@@ -13,21 +14,13 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 ## Packages 📦
 
-This is a _monorepo_ to organize all the themes:
+This is a _monorepo_ to organize all the themes. For samples, compatible syntaxes, etc., see the package:
 
 |                                                                                                                | Name                   | Package                                    |
 | -------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------------------------ |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="16" /> | **Visual Studio Code** | [./packages/**vscode**](./packages/vscode) |
 
 - If your favorite editor isn't here, how about contributing? 🙌
-
----
-
-## 💡 Some samples
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/svelte.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/react.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/html.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/yaml.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/php.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/java.png" width=480 />
-</div>
 
 ---
 

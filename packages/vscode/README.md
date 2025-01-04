@@ -5,7 +5,8 @@
 
 A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellwelwel/poku)'s visual identity for [Visual Studio Code](https://github.com/microsoft/vscode).
 
-💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.
+💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.<br />
+It's not just about combining colors, but establishing consistency between different language syntaxes.
 
 ---
 
