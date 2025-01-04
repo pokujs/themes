@@ -282,7 +282,9 @@
         "support.class.builtin",
         "entity.name.type.rust",
         "entity.name.type.class",
-        "meta.class.kotlin"
+        "meta.class.kotlin",
+        "source.scala entity.name.class.declaration",
+        "source.scala entity.name.class"
       ],
       "settings": {
         "foreground": "#0fb9b1"
@@ -309,7 +311,9 @@
         "source.java meta.function-call",
         "source.kotlin",
         "entity.string.template.element.kotlin",
-        "source.python"
+        "source.python",
+        "source.scala",
+        "meta.template.expression.scala"
       ],
       "settings": {
         "foreground": "#8dc0ff"
