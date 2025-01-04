@@ -308,7 +308,8 @@
         "source.java",
         "source.java meta.function-call",
         "source.kotlin",
-        "entity.string.template.element.kotlin"
+        "entity.string.template.element.kotlin",
+        "source.python"
       ],
       "settings": {
         "foreground": "#8dc0ff"
