@@ -18,13 +18,13 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 - ✅ **HTML**, **JSON**, **JSONC**, **YAML**, **Markdown**, **MDX**
 - ✅ **CSS**, **SCSS**, **Sass**, **Less**
 - ✅ **SQL**
-- ✅ **PHP**, **Bash**, **Rust**, **C++**, **Go**, **Python**, **Ruby**
+- ✅ **C**, **PHP**, **Bash**, **Rust**, **C++**, **Go**, **Python**, **Ruby**
 
 > Although it probably works with most languages, these are the languages and frameworks manually checked.
 
 ### I'd love your help with:
 
-- ❗️ **Java**, **C#**, **C**, and the one you like.
+- ❗️ **Java**, **C#**, and the one you like.
 
 ---
 

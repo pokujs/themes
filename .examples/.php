@@ -6,10 +6,12 @@ use PDO;
 class Person {
   private string $name;
   private int $age;
+  static int $test;
 
   public function __construct(string $name, int $age) {
     $this->name = $name;
     $this->age = $age;
+    self::test;
   }
 
   public function greet(): string {
@@ -26,3 +28,5 @@ $person = new Person('Alice', 30);
 $yearOfBirth = calculateYearOfBirth($currentYear, $personAge);
 
 echo $person->greet();
+
+?>

@@ -116,6 +116,12 @@
       }
     },
     {
+      "scope": ["keyword.operator.class.php"],
+      "settings": {
+        "foreground": "#38a2ffc5"
+      }
+    },
+    {
       "scope": [
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html"
@@ -283,8 +289,18 @@
     },
     {
       "scope": [
+        "support.class",
+        "support.class.builtin",
+        "entity.name.type.rust",
+        "entity.name.type.class"
+      ],
+      "settings": {
+        "foreground": "#0fb9b1"
+      }
+    },
+    {
+      "scope": [
         "variable",
-        "string constant.other.placeholder",
         "variable.other.property",
         "punctuation.definition.variable.php",
         "source.sql",
@@ -296,7 +312,9 @@
         "entity.other.attribute-name.svelte",
         "source.rust",
         "source.dart",
-        "meta.embedded.expression.dart"
+        "meta.embedded.expression.dart",
+        "source.php meta.embedded.block",
+        "meta.class constant.other.class.php"
       ],
       "settings": {
         "foreground": "#8dc0ff"
@@ -333,7 +351,8 @@
         "storage.modifier.sql",
         "keyword.other.DML.sql",
         "keyword.operator.herestring.shell",
-        "keyword.operator.logical.shell"
+        "keyword.operator.logical.shell",
+        "keyword.operator.arithmetic"
       ],
       "settings": {
         "foreground": "#9294ff"
@@ -562,7 +581,8 @@
         "source.svelte meta.special",
         "source.svelte entity.name.label.js",
         "text.html constant.character",
-        "entity.name.tag.reference.scss"
+        "entity.name.tag.reference.scss",
+        "string constant.other.placeholder"
       ],
       "settings": {
         "foreground": "#fd9fff",
@@ -629,17 +649,6 @@
     },
     {
       "scope": [
-        "support.class",
-        "meta.class",
-        "support.class.builtin",
-        "entity.name.type.rust"
-      ],
-      "settings": {
-        "foreground": "#0fb9b1"
-      }
-    },
-    {
-      "scope": [
         "entity.name.tag.tsx",
         "entity.name.tag.js.jsx",
         "entity.name.tag.svelte",
@@ -681,7 +690,10 @@
         "punctuation.definition.typeparameters.end",
         "source.rust entity.name.type",
         "storage.type.primitive.cpp",
-        "storage.type.built-in.primitive.cpp"
+        "storage.type.built-in.primitive.cpp",
+        "storage.type.built-in.primitive.c",
+        "entity.name.type.go",
+        "storage.type.primitive.dart"
       ],
       "settings": {
         "foreground": "#0fb9b0d1",
@@ -765,7 +777,8 @@
         "variable.language.this",
         "variable.language.self.rust",
         "source.css support.constant.property-value",
-        "variable.parameter.function.language.special.self.python"
+        "variable.parameter.function.language.special.self.python",
+        "meta.class.body.php storage.type.php"
       ],
       "settings": {
         "foreground": "#38a2ff",
@@ -790,10 +803,20 @@
         "keyword.other.fn.rust",
         "keyword.other.rust",
         "storage.modifier.dart",
-        "source.css support.type.property-name"
+        "source.css support.type.property-name",
+        "source.c storage.modifier"
       ],
       "settings": {
         "fontStyle": ""
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.embedded.begin.php",
+        "punctuation.section.embedded.end.php"
+      ],
+      "settings": {
+        "fontStyle": "bold"
       }
     }
   ]
