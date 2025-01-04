@@ -7,18 +7,13 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 💡 While [**Poku Test Runner**](https://github.com/wellwelwel/poku) makes testing easier, **Poku**'s theme makes it easy to read your code.
 
-</div>
-
 ---
 
 ## 💡 Some samples
 
-<img src="./assets/samples/svelte.png" width=480 />
-<img src="./assets/samples/react.png" width=480 />
-<img src="./assets/samples/html.png" width=480 />
-<img src="./assets/samples/yaml.png" width=480 />
-<img src="./assets/samples/php.png" width=480 />
-<img src="./assets/samples/java.png" width=480 />
+<img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/svelte.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/react.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/html.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/yaml.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/php.png" width=480 /> <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/samples/java.png" width=480 />
+
+</div>
 
 ---
 
