@@ -11,6 +11,17 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 ---
 
+## 💡 Some samples
+
+<img src="./assets/samples/svelte.png" width=480 />
+<img src="./assets/samples/react.png" width=480 />
+<img src="./assets/samples/html.png" width=480 />
+<img src="./assets/samples/yaml.png" width=480 />
+<img src="./assets/samples/php.png" width=480 />
+<img src="./assets/samples/java.png" width=480 />
+
+---
+
 ## 🔬 Languages Tried
 
 |                                                                                                                                     | Language / Syntax | Libraries, Frameworksa and derivatives                                |

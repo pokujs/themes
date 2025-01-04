@@ -9,4 +9,5 @@ src/
 **/**/*.psd
 assets/colors
 assets/icons
+assets/samples
 nodemon.json
