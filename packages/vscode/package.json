@@ -2,7 +2,7 @@
   "name": "poku-theme",
   "displayName": "Poku Theme",
   "description": "A cute gothic pastel theme inspired by Poku's visual identity for Visual Studio Code 🐷",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "type": "module",
   "license": "MIT",
   "homepage": "https://poku.io",
