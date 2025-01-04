@@ -280,7 +280,8 @@
         "support.class",
         "support.class.builtin",
         "entity.name.type.rust",
-        "entity.name.type.class"
+        "entity.name.type.class",
+        "meta.class.kotlin"
       ],
       "settings": {
         "foreground": "#0fb9b1"
@@ -304,7 +305,9 @@
         "source.php meta.embedded.block",
         "source.css variable",
         "source.java",
-        "source.java meta.function-call"
+        "source.java meta.function-call",
+        "source.kotlin",
+        "entity.string.template.element.kotlin"
       ],
       "settings": {
         "foreground": "#8dc0ff"
@@ -428,7 +431,8 @@
         "markup.raw.block",
         "keyword.other.fn.rust",
         "keyword.other.rust",
-        "storage.modifier.dart"
+        "storage.modifier.dart",
+        "keyword.other.kotlin"
       ],
       "settings": {
         "foreground": "#a29bfe"
@@ -445,7 +449,10 @@
       "scope": [
         "meta.template.expression",
         "punctuation.definition.interpolation.rust",
-        "meta.interpolation.rust"
+        "meta.interpolation.rust",
+        "punctuation.section.block.begin.kotlin",
+        "punctuation.section.block.end.kotlin",
+        "punctuation.definition.keyword.kotlin"
       ],
       "settings": {
         "foreground": "#a29bfea3"
@@ -660,7 +667,8 @@
         "storage.type.primitive.java",
         "meta.method.return-type.java",
         "storage.type.object.array.java",
-        "storage.type.java"
+        "storage.type.java",
+        "support.class.kotlin"
       ],
       "settings": {
         "foreground": "#0fb9b0d1",
