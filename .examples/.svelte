@@ -1,5 +1,5 @@
 <script>
-  let items = ["Alice", "Bob", "Charlie"];
+  const items = ["Alice", "Bob", "Charlie"];
   let selected = "None";
 
   const selectItem = (item) => {

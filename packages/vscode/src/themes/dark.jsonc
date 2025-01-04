@@ -551,10 +551,13 @@
       }
     },
     {
-      "scope": ["constant.other.color", "constant.other.php"],
+      "scope": [
+        "constant.other.color",
+        "constant.other.php",
+        "variable.other.constant"
+      ],
       "settings": {
-        "foreground": "#d3d1e2",
-        "fontStyle": "bold"
+        "foreground": "#6fb4ff"
       }
     },
     {
@@ -687,7 +690,15 @@
         "storage.type.object.array.java",
         "storage.type.java",
         "support.class.kotlin",
-        "meta.function.parameter.typehinted.php support.class"
+        "meta.function.parameter.typehinted.php support.class",
+        "source.js support.type",
+        "source.ts support.type",
+        "source.jsx support.type",
+        "source.tsx support.type",
+        "source.python support.type",
+        "source.php support.type",
+        "source.rust support.type",
+        "source.ruby support.type"
       ],
       "settings": {
         "foreground": "#0fb9b0d1",
