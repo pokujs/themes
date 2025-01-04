@@ -116,7 +116,10 @@
       }
     },
     {
-      "scope": ["keyword.operator.class.php"],
+      "scope": [
+        "keyword.operator.class.php",
+        "punctuation.separator.scope-resolution.cpp"
+      ],
       "settings": {
         "foreground": "#38a2ffc5"
       }
@@ -284,7 +287,10 @@
         "entity.name.type.class",
         "meta.class.kotlin",
         "source.scala entity.name.class.declaration",
-        "source.scala entity.name.class"
+        "source.scala entity.name.class",
+        "entity.name.type.module.elixir",
+        "source.cpp support.type",
+        "meta.block.class.cpp"
       ],
       "settings": {
         "foreground": "#0fb9b1"
@@ -313,7 +319,9 @@
         "entity.string.template.element.kotlin",
         "source.python",
         "source.scala",
-        "meta.template.expression.scala"
+        "meta.template.expression.scala",
+        "source.elixir",
+        "constant.language.symbol.elixir"
       ],
       "settings": {
         "foreground": "#8dc0ff"
@@ -351,7 +359,8 @@
         "keyword.other.DML.sql",
         "keyword.operator.herestring.shell",
         "keyword.operator.logical.shell",
-        "keyword.operator.arithmetic"
+        "keyword.operator.arithmetic",
+        "punctuation.definition.map.elixir"
       ],
       "settings": {
         "foreground": "#9294ff"
@@ -458,7 +467,9 @@
         "meta.interpolation.rust",
         "punctuation.section.block.begin.kotlin",
         "punctuation.section.block.end.kotlin",
-        "punctuation.definition.keyword.kotlin"
+        "punctuation.definition.keyword.kotlin",
+        "punctuation.section.embedded.elixir",
+        "variable.language.omitted.erlang"
       ],
       "settings": {
         "foreground": "#a29bfea3"
@@ -588,7 +599,8 @@
         "source.svelte entity.name.label.js",
         "text.html constant.character",
         "entity.name.tag.reference.scss",
-        "string constant.other.placeholder"
+        "string constant.other.placeholder",
+        "constant.character.format.placeholder.other.erlang"
       ],
       "settings": {
         "foreground": "#fd9fff",
@@ -643,7 +655,6 @@
     {
       "scope": [
         "entity.name.type.alias",
-        "support.type",
         "support.other.namespace.use.php",
         "entity.name.type.namespace",
         "meta.use.php",
@@ -666,6 +677,7 @@
         "punctuation.definition.typeparameters.end",
         "source.rust entity.name.type",
         "storage.type.primitive.cpp",
+        "meta.function.definition.cpp",
         "storage.type.built-in.primitive.cpp",
         "storage.type.built-in.primitive.c",
         "entity.name.type.go",
@@ -787,7 +799,12 @@
         "storage.modifier.dart",
         "source.css support.type.property-name",
         "source.c storage.modifier",
-        "storage.modifier.java"
+        "storage.modifier.java",
+        "constant.language.symbol.elixir",
+        "source.cpp support.type",
+        "meta.block.class.cpp",
+        "entity.name.function.call.cpp",
+        "meta.body.function.definition.cpp"
       ],
       "settings": {
         "fontStyle": ""

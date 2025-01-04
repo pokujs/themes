@@ -43,20 +43,27 @@ This section describes the theme’s core color palette. It serves as a guide fo
 
 ---
 
-#### 2. Text and General Elements
+#### 2. Editor Foregrounds
+
+| Purpose                  | HEX       | 🎨                                                                                                                     | Notes                                            |
+| ------------------------ | --------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Primary Text**         | `#babcc4` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/babcc4.png" /> | Main text color inside the editor.               |
+| **Secondary Text**       | `#96a3b6` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/96a3b6.png" /> | Used in the sidebar items, breadcrumb, etc.      |
+| **Strings / Insertions** | `#98aec9` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/98aec9.png" /> | Strings, template strings, inserted code blocks. |
+| **Comments**             | `#596170` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/596170.png" /> | Used for code comments, docblocks, etc.          |
+
+---
+
+#### 3. Syntax Elements
 
 | Purpose                          | HEX         | 🎨                                                                                                                       | Notes                                                                      |
 | -------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-| **Primary Text**                 | `#babcc4`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/babcc4.png" />   | Main text color inside the editor.                                         |
-| **Secondary Text**               | `#96a3b6`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/96a3b6.png" />   | Used in the sidebar items, breadcrumb, etc.                                |
-| **Strings / Insertions**         | `#98aec9`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/98aec9.png" />   | Strings, template strings, inserted code blocks.                           |
-| **Comments**                     | `#596170`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/596170.png" />   | Used for code comments, docblocks, etc.                                    |
 | **Logical Operators**            | `#9294ff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/9294ff.png" />   | Logical / comparison operators (`&&`, `==`, etc.).                         |
-| **Keywords**                     | `#a29bfe`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/a29bfe.png" />   | Covers `keyword`, `storage`, `control`, etc. (sometimes italic).           |
-| **Functions / Methods**          | `#c5bfff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/c5bfff.png" />   | Function names, `meta.function-call`, methods, constructors, etc.          |
+| **Keywords**                     | `#a29bfe`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/a29bfe.png" />   | `keyword` and `control` resources (`if`, `for`, etc.)                      |
+| **Functions / Methods**          | `#c5bfff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/c5bfff.png" />   | Function names, methods, etc.                                              |
 | **Variables**                    | `#8dc0ff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/8dc0ff.png" />   | Local/global variables, placeholders in strings.                           |
 | **Native properties and values** | `#38a2ff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/38a2ff.png" />   | Built-in properties _(`this`, `lenght`, `null`, etc.)_.                    |
-| **Classes**                      | `#0fb9b1`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/0fb9b1.png" />   | Classes, including **JSX**, **Vue**, **Stelve**, and **Astro** components. |
+| **Classes**                      | `#0fb9b1`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/0fb9b1.png" />   | Classes, including **JSX**, **Vue**, **Svelte**, and **Astro** components. |
 | **Types**                        | `#0fb9b0d1` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/0fb9b0d1.png" /> | Types, annotations, etc. (often _italic_).                                 |
 | **Numbers / Units**              | `#80cc8f`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/80cc8f.png" />   | Numeric constants, CSS units, etc. (often **bold**).                       |
 
@@ -64,20 +71,20 @@ These colors appear throughout **syntax highlighting**, driving legibility and c
 
 ---
 
-#### 3. Accents / Specific Highlights
+#### 4. Accents / Specific Highlights
 
 | Purpose                      | HEX         | 🎨                                                                                                                       | Notes                                                       |
 | ---------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
 | **Pink Accent / Decoration** | `#fd9fff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/fd9fff.png" />   | Used in special characters and other prominent decorations. |
-| **Errors / Invalid**         | `#ff6e97`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/ff6e97.png" />   | Used for `invalid.illegal`, lint errors, etc.               |
+| **Errors / Invalid**         | `#ff6e97`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/ff6e97.png" />   | Used for invalid or illegal syntaxes, lint errors, etc.     |
 | **Search Highlight**         | `#5100ffdc` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/5100ffdc.png" /> | Background for find match highlighting.                     |
-| **Active Links**             | `#688eff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/688eff.png" />   | `editorLink.activeForeground`.                              |
+| **Active Links**             | `#688eff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/688eff.png" />   | By focusing links in strings.                               |
 
 These vibrant shades intensify the visual experience, highlighting errors, selections, links, etc.
 
 ---
 
-#### 4. Edtior Miscellaneous Colors
+#### 5. Edtior Miscellaneous Colors
 
 | Purpose                     | HEX         | 🎨                                                                                                                       |
 | --------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -90,7 +97,7 @@ These vibrant shades intensify the visual experience, highlighting errors, selec
 
 ---
 
-#### 5. Theme Essence
+#### 6. Theme Essence
 
 Dark **Poku**'s theme is defined by:
 

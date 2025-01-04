@@ -13,12 +13,30 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 ## 🔬 Languages Tried
 
-- ✅ **JavaScript**, **TypeScript**, **Dart**, **Java**
-  - ✅ **React.js**, **Svelte**, **Vue**, **React Native**, **Astro**, **Flutter**, **Kotlin**
-- ✅ **HTML**, **JSON**, **JSONC**, **YAML**, **Markdown**, **MDX**
-- ✅ **CSS**, **SCSS**, **Sass**, **Less**
-- ✅ **SQL**
-- ✅ **C**, **PHP**, **Bash**, **Rust**, **C++**, **Go**, **Python**, **Ruby**
+|                                                                                                                      | Language / Syntax | Libraries, Frameworksa and derivatives                                |
+| -------------------------------------------------------------------------------------------------------------------- | ----------------- | --------------------------------------------------------------------- |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height=18 />           | **HTML**          |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height=18 />             | **CSS**           | **SCSS**, **Sass**, and **Less**.                                     |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height=18 /> | **JavaScript**    | **ReactJS** and **React Native**, **Svelte**, **Vue**, and **Astro**. |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height=18 /> | **TypeScript**    | Same as **JavaScript**.                                               |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" height=18 />             | **JSON**          | **JSONC**.                                                            |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height=18 />           | **SQL**           | **MySQL**, **PostgreSQL**, etc.                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" height=18 />             | **Shell**         | **Bash**, **Zsh**, etc.                                               |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" height=18 />     | **Markdown**      | **MDX**.                                                              |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yaml/yaml-original.svg" height=18 />             | **YAML**          |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" height=18 />             | **Dart**          | **Flutter**.                                                          |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height=18 />             | **Java**          |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" height=18 />         | **Kotlin**        |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" height=18 />               | **PHP**           |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" height=18 />                   | **C**             |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height=18 />   | **C++**           |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" height=18 />             | **Rust**          |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" height=18 />        | **Go**            |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height=18 />         | **Python**        |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg" height=18 />             | **Ruby**          |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" height=18 />           | **Scala**         |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/erlang/erlang-original.svg" height=18 />         | **Erlang**        |                                                                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elixir/elixir-original.svg" height=18 />         | **Elixir**        |                                                                       |
 
 > Although it probably works with most languages, these are the languages and frameworks manually checked.
 
@@ -48,14 +66,21 @@ This section describes the theme’s core color palette. It serves as a guide fo
 
 ---
 
-### 2. Text and General Elements
+### 2. Editor Foregrounds
+
+| Purpose                  | HEX       | 🎨                                                                                                                     | Notes                                            |
+| ------------------------ | --------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Primary Text**         | `#babcc4` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/babcc4.png" /> | Main text color inside the editor.               |
+| **Secondary Text**       | `#96a3b6` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/96a3b6.png" /> | Used in the sidebar items, breadcrumb, etc.      |
+| **Strings / Insertions** | `#98aec9` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/98aec9.png" /> | Strings, template strings, inserted code blocks. |
+| **Comments**             | `#596170` | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/596170.png" /> | Used for code comments, docblocks, etc.          |
+
+---
+
+### 3. Syntax Elements
 
 | Purpose                          | HEX         | 🎨                                                                                                                       | Notes                                                                      |
 | -------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
-| **Primary Text**                 | `#babcc4`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/babcc4.png" />   | Main text color inside the editor.                                         |
-| **Secondary Text**               | `#96a3b6`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/96a3b6.png" />   | Used in the sidebar items, breadcrumb, etc.                                |
-| **Strings / Insertions**         | `#98aec9`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/98aec9.png" />   | Strings, template strings, inserted code blocks.                           |
-| **Comments**                     | `#596170`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/596170.png" />   | Used for code comments, docblocks, etc.                                    |
 | **Logical Operators**            | `#9294ff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/9294ff.png" />   | Logical / comparison operators (`&&`, `==`, etc.).                         |
 | **Keywords**                     | `#a29bfe`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/a29bfe.png" />   | `keyword` and `control` resources (`if`, `for`, etc.)                      |
 | **Functions / Methods**          | `#c5bfff`   | <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/colors/c5bfff.png" />   | Function names, methods, etc.                                              |
@@ -69,7 +94,7 @@ These colors appear throughout **syntax highlighting**, driving legibility and c
 
 ---
 
-### 3. Accents / Specific Highlights
+### 4. Accents / Specific Highlights
 
 | Purpose                      | HEX         | 🎨                                                                                                                       | Notes                                                       |
 | ---------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
@@ -82,7 +107,7 @@ These vibrant shades intensify the visual experience, highlighting errors, selec
 
 ---
 
-### 4. Edtior Miscellaneous Colors
+### 5. Edtior Miscellaneous Colors
 
 | Purpose                     | HEX         | 🎨                                                                                                                       |
 | --------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -95,7 +120,7 @@ These vibrant shades intensify the visual experience, highlighting errors, selec
 
 ---
 
-## Theme Essence
+### 6. Theme Essence
 
 Dark **Poku**'s theme is defined by:
 
