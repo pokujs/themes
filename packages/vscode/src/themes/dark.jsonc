@@ -669,7 +669,8 @@
         "meta.method.return-type.java",
         "storage.type.object.array.java",
         "storage.type.java",
-        "support.class.kotlin"
+        "support.class.kotlin",
+        "meta.function.parameter.typehinted.php support.class"
       ],
       "settings": {
         "foreground": "#0fb9b0d1",
