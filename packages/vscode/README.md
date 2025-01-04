@@ -13,30 +13,30 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 ## 🔬 Languages Tried
 
-|                                                       | Language / Syntax | Libraries, Frameworksa and derivatives                                |
-| ----------------------------------------------------- | ----------------- | --------------------------------------------------------------------- |
-| <img src="./assets/icons/html.png" height=18 />       | **HTML**          |                                                                       |
-| <img src="./assets/icons/css.png" height=18 />        | **CSS**           | **SCSS**, **Sass**, and **Less**.                                     |
-| <img src="./assets/icons/javascript.png" height=18 /> | **JavaScript**    | **ReactJS** and **React Native**, **Svelte**, **Vue**, and **Astro**. |
-| <img src="./assets/icons/typescript.png" height=18 /> | **TypeScript**    | Same as **JavaScript**.                                               |
-| <img src="./assets/icons/json.png" height=18 />       | **JSON**          | **JSONC**.                                                            |
-| <img src="./assets/icons/mysql.png" height=18 />      | **SQL**           | **MySQL**, **PostgreSQL**, etc.                                       |
-| <img src="./assets/icons/bash.png" height=18 />       | **Shell**         | **Bash**, **Zsh**, etc.                                               |
-| <img src="./assets/icons/markdown.png" height=18 />   | **Markdown**      | **MDX**.                                                              |
-| <img src="./assets/icons/yaml.png" height=18 />       | **YAML**          |                                                                       |
-| <img src="./assets/icons/dart.png" height=18 />       | **Dart**          | **Flutter**.                                                          |
-| <img src="./assets/icons/java.png" height=18 />       | **Java**          |                                                                       |
-| <img src="./assets/icons/kotlin.png" height=18 />     | **Kotlin**        |                                                                       |
-| <img src="./assets/icons/php.png" height=18 />        | **PHP**           |                                                                       |
-| <img src="./assets/icons/c.png" height=18 />          | **C**             |                                                                       |
-| <img src="./assets/icons/cpp.png" height=18 />        | **C++**           |                                                                       |
-| <img src="./assets/icons/rust.png" height=18 />       | **Rust**          |                                                                       |
-| <img src="./assets/icons/go.png" height=18 />         | **Go**            |                                                                       |
-| <img src="./assets/icons/python.png" height=18 />     | **Python**        |                                                                       |
-| <img src="./assets/icons/ruby.png" height=18 />       | **Ruby**          |                                                                       |
-| <img src="./assets/icons/scala.png" height=18 />      | **Scala**         |                                                                       |
-| <img src="./assets/icons/erlang.png" height=18 />     | **Erlang**        |                                                                       |
-| <img src="./assets/icons/elixir.png" height=18 />     | **Elixir**        |                                                                       |
+|                                                                                                                                     | Language / Syntax | Libraries, Frameworksa and derivatives                                |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------------- | --------------------------------------------------------------------- |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/html.png" height=18 />       | **HTML**          |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/css.png" height=18 />        | **CSS**           | **SCSS**, **Sass**, and **Less**.                                     |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/javascript.png" height=18 /> | **JavaScript**    | **ReactJS** and **React Native**, **Svelte**, **Vue**, and **Astro**. |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/typescript.png" height=18 /> | **TypeScript**    | Same as **JavaScript**.                                               |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/json.png" height=18 />       | **JSON**          | **JSONC**.                                                            |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/mysql.png" height=18 />      | **SQL**           | **MySQL**, **PostgreSQL**, etc.                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/bash.png" height=18 />       | **Shell**         | **Bash**, **Zsh**, etc.                                               |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/markdown.png" height=18 />   | **Markdown**      | **MDX**.                                                              |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/yaml.png" height=18 />       | **YAML**          |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/dart.png" height=18 />       | **Dart**          | **Flutter**.                                                          |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/java.png" height=18 />       | **Java**          |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/kotlin.png" height=18 />     | **Kotlin**        |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/php.png" height=18 />        | **PHP**           |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/c.png" height=18 />          | **C**             |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/cpp.png" height=18 />        | **C++**           |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/rust.png" height=18 />       | **Rust**          |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/go.png" height=18 />         | **Go**            |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/python.png" height=18 />     | **Python**        |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/ruby.png" height=18 />       | **Ruby**          |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/scala.png" height=18 />      | **Scala**         |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/erlang.png" height=18 />     | **Erlang**        |                                                                       |
+| <img src="https://raw.githubusercontent.com/pokujs/themes/refs/heads/main/packages/vscode/assets/icons/elixir.png" height=18 />     | **Elixir**        |                                                                       |
 
 > Although it probably works with most languages, these are the languages and frameworks manually checked.
 

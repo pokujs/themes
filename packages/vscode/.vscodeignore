@@ -7,4 +7,6 @@ src/
 .env
 .prettierignore
 **/**/*.psd
+assets/colors
+assets/icons
 nodemon.json
