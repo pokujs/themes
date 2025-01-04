@@ -1,3 +1,8 @@
 {
   "editor.fontSize": 14.5,
+  "files.exclude": {
+    "node_modules": true,
+    "package.json": true,
+    "package-lock.json": true,
+  }
 }

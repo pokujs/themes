@@ -5,8 +5,8 @@ void main() => runApp(MyApp());
 class Person {
   final String name;
   final int age;
-  Person(this.name, this.age);
 
+  Person(this.name, this.age);
   String greet() => "Hello, my name is $name and I am $age years old.";
 }
 
