@@ -20,9 +20,8 @@ fn main() {
   let current_year = 2023;
   let person_name = "Alice";
   let person_age = 30;
-
-  let person = Person::new(person_name, person_age);
   let year_of_birth = current_year - person_age;
+  let person = Person::new(person_name, person_age);
 
   println!("{}", person.greet());
   println!("{} was born in {}.", person.name, year_of_birth);

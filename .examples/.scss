@@ -11,8 +11,8 @@ body {
   background-color: $primary-color;
   color: #fff;
   border-radius: 5px;
-  cursor: pointer;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 
   &:hover {
     background-color: $hover-color;
