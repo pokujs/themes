@@ -313,8 +313,7 @@
         "source.rust",
         "source.dart",
         "meta.embedded.expression.dart",
-        "source.php meta.embedded.block",
-        "meta.class constant.other.class.php"
+        "source.php meta.embedded.block"
       ],
       "settings": {
         "foreground": "#8dc0ff"
