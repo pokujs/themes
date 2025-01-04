@@ -13,30 +13,30 @@ A _cute **gothic pastel**_ theme inspired by [**Poku**](https://github.com/wellw
 
 ## 🔬 Languages Tried
 
-|                                                                                                                      | Language / Syntax | Libraries, Frameworksa and derivatives                                |
-| -------------------------------------------------------------------------------------------------------------------- | ----------------- | --------------------------------------------------------------------- |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" height=18 />           | **HTML**          |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" height=18 />             | **CSS**           | **SCSS**, **Sass**, and **Less**.                                     |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height=18 /> | **JavaScript**    | **ReactJS** and **React Native**, **Svelte**, **Vue**, and **Astro**. |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height=18 /> | **TypeScript**    | Same as **JavaScript**.                                               |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" height=18 />             | **JSON**          | **JSONC**.                                                            |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" height=18 />           | **SQL**           | **MySQL**, **PostgreSQL**, etc.                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" height=18 />             | **Shell**         | **Bash**, **Zsh**, etc.                                               |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg" height=18 />     | **Markdown**      | **MDX**.                                                              |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/yaml/yaml-original.svg" height=18 />             | **YAML**          |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" height=18 />             | **Dart**          | **Flutter**.                                                          |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height=18 />             | **Java**          |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" height=18 />         | **Kotlin**        |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" height=18 />               | **PHP**           |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" height=18 />                   | **C**             |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height=18 />   | **C++**           |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" height=18 />             | **Rust**          |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" height=18 />        | **Go**            |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height=18 />         | **Python**        |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ruby/ruby-original.svg" height=18 />             | **Ruby**          |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scala/scala-original.svg" height=18 />           | **Scala**         |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/erlang/erlang-original.svg" height=18 />         | **Erlang**        |                                                                       |
-| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elixir/elixir-original.svg" height=18 />         | **Elixir**        |                                                                       |
+|                                                       | Language / Syntax | Libraries, Frameworksa and derivatives                                |
+| ----------------------------------------------------- | ----------------- | --------------------------------------------------------------------- |
+| <img src="./assets/icons/html.png" height=18 />       | **HTML**          |                                                                       |
+| <img src="./assets/icons/css.png" height=18 />        | **CSS**           | **SCSS**, **Sass**, and **Less**.                                     |
+| <img src="./assets/icons/javascript.png" height=18 /> | **JavaScript**    | **ReactJS** and **React Native**, **Svelte**, **Vue**, and **Astro**. |
+| <img src="./assets/icons/typescript.png" height=18 /> | **TypeScript**    | Same as **JavaScript**.                                               |
+| <img src="./assets/icons/json.png" height=18 />       | **JSON**          | **JSONC**.                                                            |
+| <img src="./assets/icons/mysql.png" height=18 />      | **SQL**           | **MySQL**, **PostgreSQL**, etc.                                       |
+| <img src="./assets/icons/bash.png" height=18 />       | **Shell**         | **Bash**, **Zsh**, etc.                                               |
+| <img src="./assets/icons/markdown.png" height=18 />   | **Markdown**      | **MDX**.                                                              |
+| <img src="./assets/icons/yaml.png" height=18 />       | **YAML**          |                                                                       |
+| <img src="./assets/icons/dart.png" height=18 />       | **Dart**          | **Flutter**.                                                          |
+| <img src="./assets/icons/java.png" height=18 />       | **Java**          |                                                                       |
+| <img src="./assets/icons/kotlin.png" height=18 />     | **Kotlin**        |                                                                       |
+| <img src="./assets/icons/php.png" height=18 />        | **PHP**           |                                                                       |
+| <img src="./assets/icons/c.png" height=18 />          | **C**             |                                                                       |
+| <img src="./assets/icons/cpp.png" height=18 />        | **C++**           |                                                                       |
+| <img src="./assets/icons/rust.png" height=18 />       | **Rust**          |                                                                       |
+| <img src="./assets/icons/go.png" height=18 />         | **Go**            |                                                                       |
+| <img src="./assets/icons/python.png" height=18 />     | **Python**        |                                                                       |
+| <img src="./assets/icons/ruby.png" height=18 />       | **Ruby**          |                                                                       |
+| <img src="./assets/icons/scala.png" height=18 />      | **Scala**         |                                                                       |
+| <img src="./assets/icons/erlang.png" height=18 />     | **Erlang**        |                                                                       |
+| <img src="./assets/icons/elixir.png" height=18 />     | **Elixir**        |                                                                       |
 
 > Although it probably works with most languages, these are the languages and frameworks manually checked.
 
