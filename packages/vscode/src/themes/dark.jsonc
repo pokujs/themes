@@ -699,7 +699,7 @@
         "source.php support.type",
         "source.rust support.type",
         "source.ruby support.type",
-        "entity.other.inherited-class.ts"
+        "source.ts entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#0fb9b0d1",
