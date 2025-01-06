@@ -44,7 +44,7 @@
     ]
   },
   "scripts": {
-    "watch": "nodemon --config nodemon.json",
+    "dev": "nodemon --config nodemon.json",
     "prebuild": "tsx src/compile.ts",
     "build": "vsce package",
     "postbuild": "vsce ls --tree",
