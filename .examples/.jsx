@@ -16,6 +16,7 @@ export const App = ({ name }) => {
 
   return (
     <div className='hi'>
+      Plan Text
       <p>{person.greet()}</p>
     </div>
   );

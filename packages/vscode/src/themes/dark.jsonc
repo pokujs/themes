@@ -378,9 +378,7 @@
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
         "source.js.jsx meta.tag.without-attributes",
-        "source.tsx meta.jsx.children.tsx",
         "meta.tag.without-attributes.tsx",
-        "meta.jsx.children.js.jsx",
         "source.css meta.property-value",
         "source.css support.constant.property-value",
         "source.css support.constant.color.w3c-standard-color-name",
@@ -562,7 +560,11 @@
       }
     },
     {
-      "scope": ["text.html.derivative"],
+      "scope": [
+        "text.html.derivative",
+        "source.tsx meta.jsx.children.tsx",
+        "meta.jsx.children.js.jsx"
+      ],
       "settings": {
         "foreground": "#d5e1f6"
       }

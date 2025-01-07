@@ -19,6 +19,7 @@ export const App: React.FC<{ name: string }> = ({ name }) => {
 
   return (
     <div className='hi'>
+      Plan Text
       <p>{person.greet()}</p>
     </div>
   );
