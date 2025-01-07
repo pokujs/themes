@@ -603,7 +603,8 @@
         "text.html constant.character",
         "entity.name.tag.reference.scss",
         "string constant.other.placeholder",
-        "constant.character.format.placeholder.other.erlang"
+        "constant.character.format.placeholder.other.erlang",
+        "variable.language.super"
       ],
       "settings": {
         "foreground": "#fd9fff",
