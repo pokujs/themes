@@ -290,7 +290,9 @@
         "source.scala entity.name.class",
         "entity.name.type.module.elixir",
         "source.cpp support.type",
-        "meta.block.class.cpp"
+        "meta.block.class.cpp",
+        "meta.class.java",
+        "meta.class.java variable"
       ],
       "settings": {
         "foreground": "#0fb9b1"
@@ -322,7 +324,12 @@
         "meta.template.expression.scala",
         "source.elixir",
         "constant.language.symbol.elixir",
-        "entity.other.attribute-name.astro"
+        "entity.other.attribute-name.astro",
+        "variable.other.object.property.java",
+        "meta.definition.variable.java",
+        "variable.other.definition.java",
+        "meta.method.body.java",
+        "meta.method-call.java variable"
       ],
       "settings": {
         "foreground": "#8dc0ff"
