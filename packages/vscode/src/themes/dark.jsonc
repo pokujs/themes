@@ -703,7 +703,7 @@
         "source.ts entity.other.inherited-class"
       ],
       "settings": {
-        "foreground": "#0fb9b0d1",
+        "foreground": "#0fb9b0dd",
         "fontStyle": "italic"
       }
     },
@@ -818,7 +818,8 @@
         "meta.block.class.cpp",
         "entity.name.function.call.cpp",
         "meta.body.function.definition.cpp",
-        "meta.field.declaration"
+        "meta.field.declaration",
+        "keyword.control.export"
       ],
       "settings": {
         "fontStyle": ""
