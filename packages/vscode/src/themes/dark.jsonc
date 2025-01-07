@@ -321,7 +321,8 @@
         "source.scala",
         "meta.template.expression.scala",
         "source.elixir",
-        "constant.language.symbol.elixir"
+        "constant.language.symbol.elixir",
+        "entity.other.attribute-name.astro"
       ],
       "settings": {
         "foreground": "#8dc0ff"
