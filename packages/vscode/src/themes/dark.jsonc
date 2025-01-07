@@ -816,7 +816,8 @@
         "source.cpp support.type",
         "meta.block.class.cpp",
         "entity.name.function.call.cpp",
-        "meta.body.function.definition.cpp"
+        "meta.body.function.definition.cpp",
+        "meta.field.declaration"
       ],
       "settings": {
         "fontStyle": ""
