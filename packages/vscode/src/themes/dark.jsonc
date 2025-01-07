@@ -819,7 +819,8 @@
         "entity.name.function.call.cpp",
         "meta.body.function.definition.cpp",
         "meta.field.declaration",
-        "keyword.control.export"
+        "keyword.control.export",
+        "comment"
       ],
       "settings": {
         "fontStyle": ""
