@@ -710,7 +710,9 @@
         "source.php support.type",
         "source.rust support.type",
         "source.ruby support.type",
-        "source.ts entity.other.inherited-class"
+        "source.ts entity.other.inherited-class",
+        "source.ts meta.type.declaration",
+        "source.ts meta.return.type"
       ],
       "settings": {
         "foreground": "#0fb9b0dd",
@@ -830,7 +832,8 @@
         "meta.body.function.definition.cpp",
         "meta.field.declaration",
         "keyword.control.export",
-        "comment"
+        "comment",
+        "source.ts variable.parameter"
       ],
       "settings": {
         "fontStyle": ""
