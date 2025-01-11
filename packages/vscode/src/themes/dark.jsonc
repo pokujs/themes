@@ -712,7 +712,10 @@
         "source.ruby support.type",
         "source.ts entity.other.inherited-class",
         "source.ts meta.type.declaration",
-        "source.ts meta.return.type"
+        "source.ts meta.return.type",
+        "source.tsx entity.other.inherited-class",
+        "source.tsx meta.type.declaration",
+        "source.tsx meta.return.type"
       ],
       "settings": {
         "foreground": "#0fb9b0dd",
