@@ -295,7 +295,7 @@
         "meta.class.java variable"
       ],
       "settings": {
-        "foreground": "#0fb9b1"
+        "foreground": "#14b9b1"
       }
     },
     {
@@ -563,7 +563,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#6fc1ff"
+        "foreground": "#51c1ff"
       }
     },
     {
